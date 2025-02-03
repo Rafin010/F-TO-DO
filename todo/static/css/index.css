@@ -1,0 +1,136 @@
+/* Body এবং HTML স্টাইল */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  background-image: url('/static/img/ns.jpg'); /*ব্যাকগ্রাউন্ড ইমেজ */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* সাইনআপ এবং লগইন কন্টেইনার */
+.signup-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+/* সাইনআপ বক্স স্টাইল */
+/* সাইনআপ বক্স স্টাইল */
+.signup-box {
+  background: linear-gradient(135deg, #4d088d, rgb(196, 4, 235));
+  /* দুই রঙের গ্র্যাডিয়েন্ট ব্যাকগ্রাউন্ড */
+  padding: 30px;
+  border-radius: 20px;
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); */
+  width: 100%;
+  max-width: 400px;
+  border-radius: 20px;
+  text-align: center;
+  /* position: relative; */
+  /* border: 3px solid transparent; */
+  animation: borderMove 3s infinite linear;
+}
+
+.element {
+  animation: gradientAnimation 5s infinite;
+}
+
+/* হেডিং স্টাইল */
+.heading {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+/* লাইন স্টাইল */
+.line {
+  width: 100%;
+  height: 1px;
+  margin: 20px 0;
+}
+
+/* ফিল্ড স্টাইল */
+.field {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.field b {
+  display: block;
+  margin-bottom: 5px;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+/* ইনপুট ফিল্ড স্টাইল */
+.inp {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.inp:focus {
+  border-color: #007bff;
+}
+
+/* সাবমিট বাটন স্টাইল */
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #ffff00bc;
+}
+
+/* লিঙ্ক স্টাইল */
+.anc {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.anc:hover {
+  color: #e4bd11;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .signup-box {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .heading {
+    font-size: 20px;
+  }
+
+  .inp,
+  .submit-button {
+    font-size: 14px;
+  }
+}

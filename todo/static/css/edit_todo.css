@@ -1,0 +1,123 @@
+/* Google Fonts */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #74b9ff, #fd79a8);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.signup-login {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 450px;
+    backdrop-filter: blur(10px);
+    animation: slideIn 1s ease-in-out;
+}
+
+@keyframes slideIn {
+    from { transform: translateY(-20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.heading {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.todo-input {
+    width: 94%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s;
+}
+
+.todo-input:focus {
+    border-color: #fd79a8;
+    box-shadow: 0 0 8px rgba(253, 121, 168, 0.5);
+}
+
+.submit-button {
+    background: linear-gradient(135deg, #fd79a8, #74b9ff);
+    color: #fff;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.submit-button:hover {
+    background: linear-gradient(135deg, #74b9ff, #fd79a8);
+}
+
+.Todo {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 12px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+    transition: all 0.3s;
+    border-left: 5px solid;
+    color: gray;
+    backdrop-filter: blur(5px);
+}
+
+.todo-red {
+    border-color: #e74c3c;
+}
+
+.todo-green {
+    border-color: #2ecc71;
+}
+
+.Todo p {
+    flex-grow: 1;
+    margin: 0;
+    font-size: 16px;
+    color: gray;
+}
+
+.Todo a {
+    color: #333;
+    font-size: 16px;
+    margin-left: 10px;
+    transition: all 0.3s;
+}
+
+.Todo a:hover {
+    color: #e74c3c;
+}
+
+@media (max-width: 480px) {
+    .signup-login {
+        width: 90%;
+        padding: 25px;
+    }
+}

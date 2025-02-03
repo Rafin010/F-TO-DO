@@ -1,0 +1,116 @@
+/* General Body Styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-image: url('/static/img/Login.jpg'); /*ব্যাকগ্রাউন্ড ইমেজ */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container for the login form */
+.signup-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* Login Box Styling */
+.signup-box1 {
+  background-color:#ffffff30;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  width: 350px;
+  text-align: center;
+}
+
+/* Heading Styling */
+.heading {
+  font-size: 24px;
+  font-weight: 700;
+  color: #eff630; /* Dark gray text */
+  margin-bottom: 20px;
+}
+
+/* Horizontal Line Styling */
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #ffffff18; /* Light gray line */
+  margin: 20px 0;
+}
+
+/* Field Styling */
+.field {
+  margin-bottom: 20px;
+  text-align: left;
+  text-align: center; /* টেক্সটকে মাঝখানে নেওয়ার জন্য */
+
+}
+
+.field b {
+  display: block;
+  text-align: center; /* টেক্সটকে মাঝখানে নেওয়ার জন্য */
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #555; /* Medium gray text */
+}
+
+/* Input Field Styling -------------------------------- */
+.inp {
+  width: 94%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+/* .inp-input:focus {
+  border-color: #8c32ec;
+  box-shadow: 0 0 10px rgb(255, 204, 235);
+} */
+
+.inp:focus {
+  border-color: #007bff; /* Blue border on focus */
+  box-shadow: #8c32ec;
+
+}
+
+/* Submit Button Styling */
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3fda82; /* Blue background */
+  color: #ffffff; /* White text */
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #247ad7; /* Darker blue on hover */
+}
+
+/* Link Styling */
+.anc {
+  color: #ffffff; /* Blue text */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.anc:hover {
+  color: #13f3c6; /* Blue text */
+
+}
+
+.anc:hover {
+  text-decoration: underline; /* Underline on hover */
+}

@@ -1,0 +1,334 @@
+/* Google Fonts
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #56ffe0, #649afc);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.signup-login {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 450px;
+    backdrop-filter: blur(10px);
+    animation: slideIn 1s ease-in-out;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.heads {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 2px solid #eee;
+    margin-bottom: 15px;
+}
+
+.heading {
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+}
+
+.anca a {
+    color: #b70817;
+    font-size: 28px;
+    transition: 0.3s;
+}
+
+.anca a:hover {
+    color: #e84118;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.todo-input {
+    width: 94%;
+    padding: 10px;
+    border: 2px solid #56ffe0;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s;
+}
+
+.todo-input:focus {
+    border-color: #649afc;
+    box-shadow: 0 0 8px rgba(100, 154, 252, 0.5);
+}
+
+.submit-button {
+    background: linear-gradient(135deg, #ff4757, #e84118);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.submit-button:hover {
+    background: linear-gradient(135deg, #e84118, #ff4757);
+}
+
+.Todo {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    transition: all 0.3s;
+    border-left: 5px solid;
+    backdrop-filter: blur(5px);
+}
+
+.todo-red {
+    border-color: #ff4757;
+}
+
+.todo-green {
+    border-color: #2ed573;
+}
+
+.Todo p {
+    flex-grow: 1;
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.Todo a {
+    color: #333;
+    font-size: 16px;
+    margin-left: 10px;
+    transition: all 0.3s;
+}
+
+.Todo a:hover {
+    color: #ff4757;
+}
+
+@media (max-width: 480px) {
+    .signup-login {
+        width: 90%;
+        padding: 20px;
+    }
+} */
+
+
+
+
+
+
+/* Google Fonts */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('/static/img/00.jpg'); /*ব্যাকগ্রাউন্ড ইমেজ */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.signup-login {
+    background: linear-gradient(135deg, #7e34ce, #6ca0f9);
+
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    width: 450px;
+    backdrop-filter: blur(12px);
+    animation: slideIn 1s ease-in-out;
+}
+
+@keyframes slideIn {
+    from { transform: translateY(-30px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+h1 {
+    text-align: center;
+    color: #222;
+}
+
+.heads {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 15px;
+}
+
+.heading {
+    font-size: 22px;
+    font-weight: 600;
+    color: #222;
+}
+
+.anca a {
+    color: #b70817;
+    font-size: 28px;
+    transition: all 0.3s;
+}
+
+.anca a:hover {
+    color: #e84118;
+    transform: scale(1.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.todo-input {
+    width: 94%;
+    padding: 12px;
+    border: 2px solid #2575fc;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s;
+}
+
+.todo-input:focus {
+    border-color: #8c32ec;
+    box-shadow: 0 0 10px rgb(255, 204, 235);
+}
+
+.submit-button {
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+    color: #fff;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.submit-button:hover {
+    background: linear-gradient(135deg, #ff4b2b, #ff416c);
+    transform: scale(1.05);
+}
+
+.Todo {
+    background: linear-gradient(135deg, #fbf18a, #ffc58c);
+    padding: 12px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-top: 12px;
+    transition: all 0.3s;
+    border-left: 6px solid;
+    backdrop-filter: blur(6px);
+}
+
+.todo-red {
+    border-color: #4eff2b;
+}
+
+.todo-green {
+    border-color: #2ecc71;
+}
+
+.Todo p {
+    flex-grow: 1;
+    margin: 0;
+    font-size: 16px;
+    color: #222;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.Todo a {
+    color: #222;
+    font-size: 16px;
+    margin-left: 12px;
+    transition: all 0.3s;
+}
+
+.Todo a:hover {
+    color: #ff4b2b;
+    transform: scale(1.1);
+}
+
+@media (max-width: 480px) {
+    .signup-login {
+        width: 90%;
+        padding: 20px;
+    }
+}
+
+/* branding */
+.br {
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px 10px;
+    border-radius: 5px;
+}    
+
